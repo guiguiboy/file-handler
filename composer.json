@@ -1,0 +1,23 @@
+{
+    "name": "guiguiboy/simple-file-handler",
+    "description": "Simple file handler. Uses generators.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guigui",
+            "email": "guillaume.bretou@gmail.com"
+        }
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guiguiboy\\FileHandler\\": "src/"
+        }
+    }
+}
