@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "php": "7.*",
         "squizlabs/php_codesniffer": "*"
     },
     "require-dev": {
